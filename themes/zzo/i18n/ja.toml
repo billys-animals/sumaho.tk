@@ -1,0 +1,101 @@
+[search-placeholder]
+other = "検索"
+
+[summary-dateformat]
+other = "2006年1月2日"
+
+[reading-time]
+other = "分"
+
+[tags]
+other = "タグ"
+
+[categories]
+other = "カテゴリー"
+
+[series]
+other = "シリーズ"
+
+[archive-dateformat]
+other = "1月2日"
+
+[talks-dateformat]
+other = "2006年1月"
+
+[single-dateformat]
+other = "2006年1月2日"
+
+[pub-dateformat]
+other = "2006-01-02"
+
+[resume-dateformat]
+other = "2006年1月"
+
+[single-related]
+other = "関連投稿"
+
+[single-writtenBy]
+other = "記事を書いた人"
+
+[toc-label]
+other = "目次"
+
+[counter-site-pv]
+other = "総ページビュー"
+
+[counter-site-uv]
+other = "訪問者数"
+
+[counter-page-pv]
+other = "ページビュー"
+
+[donate-message]
+other = "Support the author with"
+
+[share-message]
+other = "シェアする"
+
+[contact-name]
+other = "名前"
+
+[contact-email]
+other = "メール"
+
+[contact-tel]
+other = "電話"
+
+[contact-file]
+other = "File"
+
+[contact-message]
+other = "メッセージ"
+
+[contact-send]
+other = "送信"
+
+[contact-browse]
+other = "開く"
+
+[tooltip-home]
+other = "ホーム"
+
+[tooltip-written]
+other = "Written At"
+
+[tooltip-modified]
+other = "Modified At"
+
+[tooltip-reading-time]
+other = "Reading Time"
+
+[showcase-overview]
+other = "Overview"
+
+[showcase-pinned]
+other = "Pinned"
+
+[nojs-message]
+other = "This page looks best with JavaScript enabled"
+
+[posts-by-order]
+other = "記事の先頭へ"

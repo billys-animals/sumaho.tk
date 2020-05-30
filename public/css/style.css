@@ -1,0 +1,337 @@
+:root {
+  /* スフィア        */
+    --charno1 : url('http://localhost:1313/images/whoami/avatar.jpg');
+  /* 女子高校生徒          */
+    --charno2 : url('http://localhost:1313/wp-content/uploads/2020/01/1580391285389-300x300.jpg');
+  /* 努力の神様        */
+    --charno3 : url('http://localhost:1313/wp-content/uploads/2020/02/1580639952582-300x300.jpg');
+  /* よしこ先生      */
+    --charno4 : url('http://localhost:1313/wp-content/uploads/2020/02/59f22304d8a98fda3cdd7ae77db8a0b3.jpg');
+
+}
+
+/** 右側キャラ用1スタイル */
+.right1{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-left: auto;
+  margin-right: calc(50px + 15px);
+  padding: 5px 15px;
+  background-color: #fff6a8;
+  color: #333;
+  font-weight: bold;
+  text-align: right;
+  font-size: 15px;
+}
+
+.right1 p{
+  display: inline-block;
+  text-align: left;
+}
+  
+.right1:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 30px solid #fff6a8;
+}
+
+.right1:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  margin-left: calc(100% + 15px);
+
+  background-image: var(--charno1);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+/** 左側キャラ用1スタイル */
+.left1{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-right: auto;
+  margin-left: calc(50px + 15px);
+  padding: 5px 15px;
+  width: auto; height: auto;
+  background-color: #adf;
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+}
+  
+.left1:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; right: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 30px solid #adf;
+}
+
+.left1:before{
+  content: "";
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  left: 0;
+  margin-left: calc(-50px + -30px);
+  
+  background-image: var(--charno1);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+
+/** 右側キャラ用2スタイル */
+.right2{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-left: auto;
+  margin-right: calc(50px + 15px);
+  padding: 5px 15px;
+  background-color: #fff6a8;
+  color: #333;
+  font-weight: bold;
+  text-align: right;
+  font-size: 15px;
+}
+
+.right2 p{
+  display: inline-block;
+  text-align: left;
+}
+  
+.right2:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 30px solid #fff6a8;
+}
+
+.right2:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  margin-left: calc(100% + 15px);
+
+  background-image: var(--charno2);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+/** 左側キャラ用2スタイル */
+.left2{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-right: auto;
+  margin-left: calc(50px + 15px);
+  padding: 5px 15px;
+  width: auto; height: auto;
+  background-color: #adf;
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+}
+  
+.left2:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; right: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 30px solid #adf;
+}
+
+.left2:before{
+  content: "";
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  left: 0;
+  margin-left: calc(-50px + -30px);
+  
+  background-image: var(--charno2);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+/** 右側キャラ用3スタイル */
+.right3{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-left: auto;
+  margin-right: calc(50px + 15px);
+  padding: 5px 15px;
+  background-color: #fff6a8;
+  color: #333;
+  font-weight: bold;
+  text-align: right;
+  font-size: 15px;
+}
+
+.right3 p{
+  display: inline-block;
+  text-align: left;
+}
+  
+.right3:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 30px solid #fff6a8;
+}
+
+.right3:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  margin-left: calc(100% + 15px);
+
+  background-image: var(--charno3);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+/** 左側キャラ用3スタイル */
+.left3{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-right: auto;
+  margin-left: calc(50px + 15px);
+  padding: 5px 15px;
+  width: auto; height: auto;
+  background-color: #adf;
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+}
+  
+.left3:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; right: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 30px solid #adf;
+}
+
+.left3:before{
+  content: "";
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  left: 0;
+  margin-left: calc(-50px + -30px);
+  
+  background-image: var(--charno3);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+
+/** 右側キャラ用4スタイル */
+.right4{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-left: auto;
+  margin-right: calc(50px + 15px);
+  padding: 5px 15px;
+  background-color: #fff6a8;
+  color: #333;
+  font-weight: bold;
+  text-align: right;
+  font-size: 15px;
+}
+
+.right4 p{
+  display: inline-block;
+  text-align: left;
+}
+  
+.right4:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 30px solid #fff6a8;
+}
+
+.right4:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  margin-left: calc(100% + 15px);
+
+  background-image: var(--charno4);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+/** 左側キャラ用4スタイル */
+.left4{
+  position: relative;
+  display: block;
+  margin: 24px 12px;
+  margin-right: auto;
+  margin-left: calc(50px + 15px);
+  padding: 5px 15px;
+  width: auto; height: auto;
+  background-color: #adf;
+  color: #333;
+  font-weight: bold;
+  font-size: 15px;
+}
+  
+.left4:after{
+  content: "";
+  position: absolute;
+  
+  top: 50%; right: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 30px solid #adf;
+}
+
+.left4:before{
+  content: "";
+  position: absolute;
+  width: 50px; height: 50px;
+  top: calc(50% - 25px);
+  left: 0;
+  margin-left: calc(-50px + -30px);
+  
+  background-image: var(--charno4);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}

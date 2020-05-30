@@ -1,0 +1,43 @@
+baseURL = "https://sumaho.tk/"
+title = "パソBlog"
+theme = "zzo"
+
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
+
+summaryLength = 70
+buildFuture = true
+copyright = "sphia{year}, All Rights Reserved" # copyright symbol: $copy; current year: {year}
+timeout = 10000
+enableEmoji = true
+paginate = 20
+rssLimit = 100
+relativeURLs = true
+
+enableGitInfo = false
+googleAnalytics = ""
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+  hardWraps = true
+  unsafe = true
+  xHTML = true
+[markup.highlight]
+codeFences = true
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
