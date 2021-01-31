@@ -19,6 +19,7 @@ hideSingleContentsWhenJSDisabled = false
 
 # header
 homeHeaderType = "text" # text, img, slide
+hideHomeHeaderWhenMobile = false
 
 # menu
 showMobileMenuTerms = ["tags", "categories", "series"]
